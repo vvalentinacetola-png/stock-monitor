@@ -12,9 +12,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0"
 }
 
-# --------------------------------------------------
-# Función para enviar mensaje a Telegram
-# --------------------------------------------------
 
 def enviar_telegram(mensaje):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -29,14 +26,19 @@ def enviar_telegram(mensaje):
     )
 
 
-# --------------------------------------------------
-# 1. Obtener todos los productos
-# --------------------------------------------------
+# ==========================================================
+# 1. OBTENER TODOS LOS PRODUCTOS
+# ==========================================================
 
-r = requests.get(BASE_URL, headers=HEADERS, timeout=20)
-r.raise_for_status()
+response = requests.get(
+    BASE_URL,
+    headers=HEADERS,
+    timeout=20
+)
 
-soup = BeautifulSoup(r.text, "html.parser")
+response.raise_for_status()
+
+soup = BeautifulSoup(response.text, "html.parser")
 
 links = set()
 
@@ -48,7 +50,6 @@ for a in soup.select("a[href]"):
 
     url = urljoin(BASE_URL, href)
 
-    # Solo productos de la tienda
     if "/productos/" in url:
         links.add(url)
 
@@ -56,30 +57,34 @@ for a in soup.select("a[href]"):
 print(f"Productos encontrados: {len(links)}")
 
 
-# --------------------------------------------------
-# 2. Revisar todos los productos y todos los talles
-# --------------------------------------------------
+# ==========================================================
+# 2. REVISAR CADA PRODUCTO Y CADA TALLE
+# ==========================================================
 
 stock_actual = {}
 
-for link in links:
+for link in sorted(links):
 
     try:
-        prod_resp = requests.get(
+
+        response = requests.get(
             link,
             headers=HEADERS,
             timeout=20
         )
 
-        prod_resp.raise_for_status()
+        response.raise_for_status()
 
-        prod_soup = BeautifulSoup(
-            prod_resp.text,
+        product_soup = BeautifulSoup(
+            response.text,
             "html.parser"
         )
 
-        # Nombre
-        titulo = prod_soup.select_one("h1")
+        # --------------------------------------------------
+        # Nombre del producto
+        # --------------------------------------------------
+
+        titulo = product_soup.select_one("h1")
 
         if titulo:
             nombre = titulo.get_text(
@@ -90,23 +95,33 @@ for link in links:
             nombre = "Producto"
 
         # --------------------------------------------------
-        # Buscar variantes
+        # BUSCAR TODOS LOS TALLES
         # --------------------------------------------------
 
-        variantes = prod_soup.select(
-            ".js-product-variant-option"
+        variantes = product_soup.select(
+            "a.js-insta-variations.btn-variant"
         )
 
         if not variantes:
             print(f"Sin variantes: {nombre}")
             continue
 
+        # --------------------------------------------------
+        # Revisar cada talle individualmente
+        # --------------------------------------------------
+
         for variante in variantes:
 
-            talle = variante.get_text(
-                " ",
-                strip=True
-            )
+            talle = variante.get("data-option")
+
+            if not talle:
+                # Por si algún producto no tiene data-option
+                talle = variante.get_text(
+                    " ",
+                    strip=True
+                )
+
+            talle = talle.strip()
 
             if not talle:
                 continue
@@ -114,22 +129,14 @@ for link in links:
             clases = variante.get("class", [])
 
             # --------------------------------------------------
-            # Detectar si está disponible
+            # STOCK
             # --------------------------------------------------
 
-            disponible = True
-
-            if "js-disabled" in clases:
-                disponible = False
-
-            if "out-of-stock" in clases:
-                disponible = False
-
-            if "disabled" in clases:
-                disponible = False
+            disponible = "btn-variant-no-stock" not in clases
 
             # --------------------------------------------------
-            # Guardar cada talle individualmente
+            # CLAVE ÚNICA:
+            # producto + talle
             # --------------------------------------------------
 
             clave = f"{nombre}|||{talle}"
@@ -141,28 +148,45 @@ for link in links:
                 "url": link
             }
 
+        print(
+            f"{nombre}: "
+            f"{len(variantes)} talles revisados"
+        )
+
     except Exception as e:
-        print(f"Error revisando {link}: {e}")
+
+        print(
+            f"ERROR revisando {link}: {e}"
+        )
 
 
-print(f"Variantes revisadas: {len(stock_actual)}")
+print(
+    f"Variantes revisadas: {len(stock_actual)}"
+)
 
 
-# --------------------------------------------------
-# 3. Cargar stock anterior
-# --------------------------------------------------
+# ==========================================================
+# 3. CARGAR STOCK ANTERIOR
+# ==========================================================
 
 try:
-    with open("stock.json", "r", encoding="utf-8") as f:
+
+    with open(
+        "stock.json",
+        "r",
+        encoding="utf-8"
+    ) as f:
+
         anterior = json.load(f)
 
 except FileNotFoundError:
+
     anterior = {}
 
 
-# --------------------------------------------------
-# 4. Detectar cambios
-# --------------------------------------------------
+# ==========================================================
+# 4. COMPARAR CADA TALLE
+# ==========================================================
 
 avisos = []
 
@@ -170,39 +194,54 @@ for clave, actual in stock_actual.items():
 
     disponible_actual = actual["disponible"]
 
-    if clave in anterior:
+    if clave not in anterior:
+        # Primera vez que vemos ese talle.
+        # No mandamos aviso.
+        continue
 
-        disponible_anterior = anterior[clave]["disponible"]
+    disponible_anterior = anterior[clave]["disponible"]
 
-        # AGOTADO
-        if disponible_anterior is True and disponible_actual is False:
+    # ------------------------------------------------------
+    # SE AGOTÓ
+    # ------------------------------------------------------
 
-            avisos.append(
-                f"🔴 SE AGOTÓ\n"
-                f"{actual['nombre']}\n"
-                f"Talle: {actual['talle']}"
-            )
+    if (
+        disponible_anterior is True
+        and disponible_actual is False
+    ):
 
-        # REINGRESÓ
-        elif disponible_anterior is False and disponible_actual is True:
+        avisos.append(
+            f"🔴 SE AGOTÓ\n"
+            f"{actual['nombre']}\n"
+            f"Talle: {actual['talle']}"
+        )
 
-            avisos.append(
-                f"🟢 REINGRESÓ\n"
-                f"{actual['nombre']}\n"
-                f"Talle: {actual['talle']}"
-            )
+    # ------------------------------------------------------
+    # REINGRESÓ
+    # ------------------------------------------------------
 
-    else:
-        # Primera vez que aparece:
-        # NO mandamos aviso para evitar cientos de mensajes
-        pass
+    elif (
+        disponible_anterior is False
+        and disponible_actual is True
+    ):
+
+        avisos.append(
+            f"🟢 REINGRESÓ\n"
+            f"{actual['nombre']}\n"
+            f"Talle: {actual['talle']}"
+        )
 
 
-# --------------------------------------------------
-# 5. Guardar estado actual
-# --------------------------------------------------
+# ==========================================================
+# 5. GUARDAR ESTADO ACTUAL
+# ==========================================================
 
-with open("stock.json", "w", encoding="utf-8") as f:
+with open(
+    "stock.json",
+    "w",
+    encoding="utf-8"
+) as f:
+
     json.dump(
         stock_actual,
         f,
@@ -211,14 +250,18 @@ with open("stock.json", "w", encoding="utf-8") as f:
     )
 
 
-# --------------------------------------------------
-# 6. Enviar avisos
-# --------------------------------------------------
+# ==========================================================
+# 6. ENVIAR AVISOS
+# ==========================================================
 
 print(f"Avisos: {len(avisos)}")
 
 for mensaje in avisos:
 
     enviar_telegram(mensaje)
+
+    print(
+        "Aviso enviado:"
+    )
 
     print(mensaje)
