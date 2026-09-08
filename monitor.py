@@ -3,34 +3,38 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-URL = "https://mayoristathenewclassic.mitiendanube.com/calzados/"
+BASE_URL = "https://mayoristathenewclassic.mitiendanube.com/calzados"
 
 TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
-
-r = requests.get(URL, headers=HEADERS)
-soup = BeautifulSoup(r.text, "html.parser")
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 productos = {}
+page = 1
 
-cards = soup.select(".js-item-product")
+while True:
+    url = f"{BASE_URL}?page={page}"
+    r = requests.get(url, headers=HEADERS)
+    soup = BeautifulSoup(r.text, "html.parser")
 
-for card in cards:
-    nombre = card.select_one(".item-name")
-    if not nombre:
-        continue
+    cards = soup.select(".js-item-product")
 
-    nombre = nombre.get_text(strip=True)
+    if not cards:
+        break
 
-    texto = card.get_text(" ", strip=True).lower()
+    for card in cards:
+        nombre = card.select_one(".item-name")
+        if not nombre:
+            continue
 
-    sin_stock = "sin stock" in texto
+        nombre = nombre.get_text(strip=True)
+        texto = card.get_text(" ", strip=True).lower()
+        sin_stock = "sin stock" in texto
 
-    productos[nombre] = not sin_stock
+        productos[nombre] = not sin_stock
+
+    page += 1
 
 try:
     with open("stock.json") as f:
@@ -41,12 +45,8 @@ except:
 avisos = []
 
 for nombre, stock in productos.items():
-    if nombre in anterior:
-        if anterior[nombre] is False and stock is True:
-            avisos.append(f"🟢 Volvió el stock: {nombre}")
-    else:
-        if stock:
-            avisos.append(f"✨ Nuevo producto con stock: {nombre}")
+    if nombre in anterior and anterior[nombre] is False and stock is True:
+        avisos.append(f"🟢 Volvió el stock: {nombre}")
 
 with open("stock.json", "w") as f:
     json.dump(productos, f)
@@ -54,7 +54,7 @@ with open("stock.json", "w") as f:
 for mensaje in avisos:
     requests.post(
         f"https://api.telegram.org/bot{TOKEN}/sendMessage",
-        data={"chat_id": CHAT_ID, "text": mensaje}
+        data={"chat_id": CHAT_ID, "text": mensaje},
     )
 
 print("Productos revisados:", len(productos))
