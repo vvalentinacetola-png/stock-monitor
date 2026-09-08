@@ -4,7 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+
 BASE_URL = "https://mayoristathenewclassic.mitiendanube.com/calzados/"
+
 TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 
@@ -13,48 +15,126 @@ HEADERS = {
 }
 
 
+# ==========================================================
+# ENVIAR MENSAJE A TELEGRAM
+# ==========================================================
+
 def enviar_telegram(mensaje):
+
+    # IMPORTANTE: acá va {TOKEN}, NO %7BTOKEN%7D
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
-    requests.post(
-        url,
-        data={
-            "chat_id": CHAT_ID,
-            "text": mensaje
-        },
-        timeout=20
-    )
+    try:
+
+        response = requests.post(
+            url,
+            data={
+                "chat_id": CHAT_ID,
+                "text": mensaje
+            },
+            timeout=20
+        )
+
+        if not response.ok:
+
+            print("ERROR ENVIANDO A TELEGRAM:")
+            print(response.text)
+
+    except Exception as e:
+
+        print(f"ERROR TELEGRAM: {e}")
 
 
 # ==========================================================
 # 1. OBTENER TODOS LOS PRODUCTOS
+# RECORRIENDO TODAS LAS PÁGINAS
 # ==========================================================
-
-response = requests.get(
-    BASE_URL,
-    headers=HEADERS,
-    timeout=20
-)
-
-response.raise_for_status()
-
-soup = BeautifulSoup(response.text, "html.parser")
 
 links = set()
 
-for a in soup.select("a[href]"):
-    href = a.get("href")
+page = 1
 
-    if not href:
-        continue
+while True:
 
-    url = urljoin(BASE_URL, href)
+    url_pagina = f"{BASE_URL}?page={page}"
 
-    if "/productos/" in url:
-        links.add(url)
+    try:
+
+        response = requests.get(
+            url_pagina,
+            headers=HEADERS,
+            timeout=20
+        )
+
+        response.raise_for_status()
+
+    except Exception as e:
+
+        print(
+            f"Error cargando página {page}: {e}"
+        )
+
+        break
 
 
-print(f"Productos encontrados: {len(links)}")
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+
+    links_encontrados_en_pagina = 0
+
+
+    for a in soup.select("a[href]"):
+
+        href = a.get("href")
+
+        if not href:
+            continue
+
+
+        url_prod = urljoin(
+            BASE_URL,
+            href
+        )
+
+
+        if "/productos/" in url_prod:
+
+            if url_prod not in links:
+
+                links.add(url_prod)
+
+                links_encontrados_en_pagina += 1
+
+
+    print(
+        f"Página {page}: "
+        f"{links_encontrados_en_pagina} "
+        f"productos nuevos"
+    )
+
+
+    # Si no encontramos productos nuevos,
+    # frenamos el recorrido.
+
+    if links_encontrados_en_pagina == 0:
+
+        break
+
+
+    page += 1
+
+
+print(
+    f"Páginas revisadas: {page}"
+)
+
+print(
+    f"Total de productos encontrados: "
+    f"{len(links)}"
+)
 
 
 # ==========================================================
@@ -62,6 +142,7 @@ print(f"Productos encontrados: {len(links)}")
 # ==========================================================
 
 stock_actual = {}
+
 
 for link in sorted(links):
 
@@ -75,24 +156,31 @@ for link in sorted(links):
 
         response.raise_for_status()
 
+
         product_soup = BeautifulSoup(
             response.text,
             "html.parser"
         )
 
+
         # --------------------------------------------------
-        # Nombre del producto
+        # NOMBRE DEL PRODUCTO
         # --------------------------------------------------
 
         titulo = product_soup.select_one("h1")
 
+
         if titulo:
+
             nombre = titulo.get_text(
                 " ",
                 strip=True
             )
+
         else:
+
             nombre = "Producto"
+
 
         # --------------------------------------------------
         # BUSCAR TODOS LOS TALLES
@@ -102,56 +190,90 @@ for link in sorted(links):
             "a.js-insta-variations.btn-variant"
         )
 
+
         if not variantes:
-            print(f"Sin variantes: {nombre}")
+
+            print(
+                f"Sin variantes: {nombre}"
+            )
+
             continue
 
+
         # --------------------------------------------------
-        # Revisar cada talle individualmente
+        # REVISAR CADA TALLE
         # --------------------------------------------------
 
         for variante in variantes:
 
-            talle = variante.get("data-option")
+            talle = variante.get(
+                "data-option"
+            )
+
+
+            # Por si algún producto no tiene
+            # data-option
 
             if not talle:
-                # Por si algún producto no tiene data-option
+
                 talle = variante.get_text(
                     " ",
                     strip=True
                 )
 
+
             talle = talle.strip()
 
+
             if not talle:
+
                 continue
 
-            clases = variante.get("class", [])
+
+            clases = variante.get(
+                "class",
+                []
+            )
+
 
             # --------------------------------------------------
             # STOCK
             # --------------------------------------------------
 
-            disponible = "btn-variant-no-stock" not in clases
+            disponible = (
+                "btn-variant-no-stock"
+                not in clases
+            )
+
 
             # --------------------------------------------------
             # CLAVE ÚNICA:
-            # producto + talle
+            # PRODUCTO + TALLE
             # --------------------------------------------------
 
-            clave = f"{nombre}|||{talle}"
+            clave = (
+                f"{nombre}|||{talle}"
+            )
+
 
             stock_actual[clave] = {
+
                 "nombre": nombre,
+
                 "talle": talle,
+
                 "disponible": disponible,
+
                 "url": link
+
             }
+
 
         print(
             f"{nombre}: "
             f"{len(variantes)} talles revisados"
         )
+
 
     except Exception as e:
 
@@ -161,7 +283,8 @@ for link in sorted(links):
 
 
 print(
-    f"Variantes revisadas: {len(stock_actual)}"
+    f"Variantes revisadas en total: "
+    f"{len(stock_actual)}"
 )
 
 
@@ -179,6 +302,7 @@ try:
 
         anterior = json.load(f)
 
+
 except FileNotFoundError:
 
     anterior = {}
@@ -190,46 +314,76 @@ except FileNotFoundError:
 
 avisos = []
 
+
 for clave, actual in stock_actual.items():
 
-    disponible_actual = actual["disponible"]
+    disponible_actual = (
+        actual["disponible"]
+    )
+
+
+    # Si es la primera vez que vemos
+    # este producto/talle,
+    # no mandamos ningún aviso.
 
     if clave not in anterior:
-        # Primera vez que vemos ese talle.
-        # No mandamos aviso.
+
         continue
 
-    disponible_anterior = anterior[clave]["disponible"]
 
-    # ------------------------------------------------------
+    disponible_anterior = (
+        anterior[clave]["disponible"]
+    )
+
+
+    # ======================================================
     # SE AGOTÓ
-    # ------------------------------------------------------
+    # ======================================================
 
     if (
         disponible_anterior is True
         and disponible_actual is False
     ):
 
-        avisos.append(
-            f"🔴 SE AGOTÓ\n"
+        mensaje = (
+
+            f"🔴 SE AGOTÓ\n\n"
+
             f"{actual['nombre']}\n"
-            f"Talle: {actual['talle']}"
+
+            f"Talle: {actual['talle']}\n\n"
+
+            f"{actual['url']}"
+
         )
 
-    # ------------------------------------------------------
+
+        avisos.append(mensaje)
+
+
+    # ======================================================
     # REINGRESÓ
-    # ------------------------------------------------------
+    # ======================================================
 
     elif (
         disponible_anterior is False
         and disponible_actual is True
     ):
 
-        avisos.append(
-            f"🟢 REINGRESÓ\n"
+        mensaje = (
+
+            f"🟢 REINGRESÓ\n\n"
+
             f"{actual['nombre']}\n"
-            f"Talle: {actual['talle']}"
+
+            f"Talle: {actual['talle']}\n\n"
+
+            f"{actual['url']}"
+
         )
+
+
+        avisos.append(mensaje)
 
 
 # ==========================================================
@@ -254,7 +408,10 @@ with open(
 # 6. ENVIAR AVISOS
 # ==========================================================
 
-print(f"Avisos: {len(avisos)}")
+print(
+    f"Avisos: {len(avisos)}"
+)
+
 
 for mensaje in avisos:
 
