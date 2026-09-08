@@ -1,61 +1,224 @@
+import os
+import json
 import requests
 from bs4 import BeautifulSoup
-import json
-import os
+from urllib.parse import urljoin
 
-BASE_URL = "https://mayoristathenewclassic.mitiendanube.com/calzados"
-
+BASE_URL = "https://mayoristathenewclassic.mitiendanube.com/calzados/"
 TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
 
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
 
-productos = {}
-page = 1
+# --------------------------------------------------
+# Función para enviar mensaje a Telegram
+# --------------------------------------------------
 
-while True:
-    url = f"{BASE_URL}?page={page}"
-    r = requests.get(url, headers=HEADERS)
-    soup = BeautifulSoup(r.text, "html.parser")
+def enviar_telegram(mensaje):
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
 
-    cards = soup.select(".js-item-product")
+    requests.post(
+        url,
+        data={
+            "chat_id": CHAT_ID,
+            "text": mensaje
+        },
+        timeout=20
+    )
 
-    if not cards:
-        break
 
-    for card in cards:
-        nombre = card.select_one(".item-name")
-        if not nombre:
+# --------------------------------------------------
+# 1. Obtener todos los productos
+# --------------------------------------------------
+
+r = requests.get(BASE_URL, headers=HEADERS, timeout=20)
+r.raise_for_status()
+
+soup = BeautifulSoup(r.text, "html.parser")
+
+links = set()
+
+for a in soup.select("a[href]"):
+    href = a.get("href")
+
+    if not href:
+        continue
+
+    url = urljoin(BASE_URL, href)
+
+    # Solo productos de la tienda
+    if "/productos/" in url:
+        links.add(url)
+
+
+print(f"Productos encontrados: {len(links)}")
+
+
+# --------------------------------------------------
+# 2. Revisar todos los productos y todos los talles
+# --------------------------------------------------
+
+stock_actual = {}
+
+for link in links:
+
+    try:
+        prod_resp = requests.get(
+            link,
+            headers=HEADERS,
+            timeout=20
+        )
+
+        prod_resp.raise_for_status()
+
+        prod_soup = BeautifulSoup(
+            prod_resp.text,
+            "html.parser"
+        )
+
+        # Nombre
+        titulo = prod_soup.select_one("h1")
+
+        if titulo:
+            nombre = titulo.get_text(
+                " ",
+                strip=True
+            )
+        else:
+            nombre = "Producto"
+
+        # --------------------------------------------------
+        # Buscar variantes
+        # --------------------------------------------------
+
+        variantes = prod_soup.select(
+            ".js-product-variant-option"
+        )
+
+        if not variantes:
+            print(f"Sin variantes: {nombre}")
             continue
 
-        nombre = nombre.get_text(strip=True)
-        texto = card.get_text(" ", strip=True).lower()
-        sin_stock = "sin stock" in texto
+        for variante in variantes:
 
-        productos[nombre] = not sin_stock
+            talle = variante.get_text(
+                " ",
+                strip=True
+            )
 
-    page += 1
+            if not talle:
+                continue
+
+            clases = variante.get("class", [])
+
+            # --------------------------------------------------
+            # Detectar si está disponible
+            # --------------------------------------------------
+
+            disponible = True
+
+            if "js-disabled" in clases:
+                disponible = False
+
+            if "out-of-stock" in clases:
+                disponible = False
+
+            if "disabled" in clases:
+                disponible = False
+
+            # --------------------------------------------------
+            # Guardar cada talle individualmente
+            # --------------------------------------------------
+
+            clave = f"{nombre}|||{talle}"
+
+            stock_actual[clave] = {
+                "nombre": nombre,
+                "talle": talle,
+                "disponible": disponible,
+                "url": link
+            }
+
+    except Exception as e:
+        print(f"Error revisando {link}: {e}")
+
+
+print(f"Variantes revisadas: {len(stock_actual)}")
+
+
+# --------------------------------------------------
+# 3. Cargar stock anterior
+# --------------------------------------------------
 
 try:
-    with open("stock.json") as f:
+    with open("stock.json", "r", encoding="utf-8") as f:
         anterior = json.load(f)
-except:
+
+except FileNotFoundError:
     anterior = {}
+
+
+# --------------------------------------------------
+# 4. Detectar cambios
+# --------------------------------------------------
 
 avisos = []
 
-for nombre, stock in productos.items():
-    if nombre in anterior and anterior[nombre] is False and stock is True:
-        avisos.append(f"🟢 Volvió el stock: {nombre}")
+for clave, actual in stock_actual.items():
 
-with open("stock.json", "w") as f:
-    json.dump(productos, f)
+    disponible_actual = actual["disponible"]
 
-for mensaje in avisos:
-    requests.post(
-        f"https://api.telegram.org/bot{TOKEN}/sendMessage",
-        data={"chat_id": CHAT_ID, "text": mensaje},
+    if clave in anterior:
+
+        disponible_anterior = anterior[clave]["disponible"]
+
+        # AGOTADO
+        if disponible_anterior is True and disponible_actual is False:
+
+            avisos.append(
+                f"🔴 SE AGOTÓ\n"
+                f"{actual['nombre']}\n"
+                f"Talle: {actual['talle']}"
+            )
+
+        # REINGRESÓ
+        elif disponible_anterior is False and disponible_actual is True:
+
+            avisos.append(
+                f"🟢 REINGRESÓ\n"
+                f"{actual['nombre']}\n"
+                f"Talle: {actual['talle']}"
+            )
+
+    else:
+        # Primera vez que aparece:
+        # NO mandamos aviso para evitar cientos de mensajes
+        pass
+
+
+# --------------------------------------------------
+# 5. Guardar estado actual
+# --------------------------------------------------
+
+with open("stock.json", "w", encoding="utf-8") as f:
+    json.dump(
+        stock_actual,
+        f,
+        ensure_ascii=False,
+        indent=2
     )
 
-print("Productos revisados:", len(productos))
-print("Avisos:", len(avisos))
+
+# --------------------------------------------------
+# 6. Enviar avisos
+# --------------------------------------------------
+
+print(f"Avisos: {len(avisos)}")
+
+for mensaje in avisos:
+
+    enviar_telegram(mensaje)
+
+    print(mensaje)
