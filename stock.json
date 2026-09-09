@@ -26,7 +26,7 @@
   "Productos|||38": {
     "nombre": "Productos",
     "talle": "38",
-    "disponible": true,
+    "disponible": false,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
   "Productos|||39": {
@@ -98,7 +98,7 @@
   "ADI 2000 BEIGE NEGRA|||39": {
     "nombre": "ADI 2000 BEIGE NEGRA",
     "talle": "39",
-    "disponible": true,
+    "disponible": false,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-beige-negra-13kec/"
   },
   "ADI 2000 BEIGE NEGRA|||40": {
