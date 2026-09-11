@@ -1,28 +1,4 @@
 {
-  "Productos|||34": {
-    "nombre": "Productos",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||35": {
-    "nombre": "Productos",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||36": {
-    "nombre": "Productos",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||37": {
-    "nombre": "Productos",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
   "Productos|||38": {
     "nombre": "Productos",
     "talle": "38",
@@ -56,6 +32,30 @@
   "Productos|||43": {
     "nombre": "Productos",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||34": {
+    "nombre": "Productos",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||35": {
+    "nombre": "Productos",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||36": {
+    "nombre": "Productos",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||37": {
+    "nombre": "Productos",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
@@ -3004,6 +3004,66 @@
     "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-2000-grey-l9zr4/"
+  },
+  "Adidas Forum Dunas|||38": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||39": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||40": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||41": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||42": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||43": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||34": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||35": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||36": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
+  },
+  "Adidas Forum Dunas|||37": {
+    "nombre": "Adidas Forum Dunas",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-forum-dunas-1lfdf/"
   },
   "ADIDAS FORUM GRIS|||38": {
     "nombre": "ADIDAS FORUM GRIS",
