@@ -1,4 +1,22 @@
 {
+  "Productos|||1": {
+    "nombre": "Productos",
+    "talle": "1",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||2": {
+    "nombre": "Productos",
+    "talle": "2",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||3": {
+    "nombre": "Productos",
+    "talle": "3",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
   "Productos|||S": {
     "nombre": "Productos",
     "talle": "S",
@@ -26,42 +44,6 @@
   "Productos|||XXL": {
     "nombre": "Productos",
     "talle": "XXL",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||38": {
-    "nombre": "Productos",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||39": {
-    "nombre": "Productos",
-    "talle": "39",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||40": {
-    "nombre": "Productos",
-    "talle": "40",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||41": {
-    "nombre": "Productos",
-    "talle": "41",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||42": {
-    "nombre": "Productos",
-    "talle": "42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||43": {
-    "nombre": "Productos",
-    "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
@@ -173,30 +155,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
   },
-  "ADI 2000 CACAO INFANTIL|||34": {
-    "nombre": "ADI 2000 CACAO INFANTIL",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
-  },
-  "ADI 2000 CACAO INFANTIL|||35": {
-    "nombre": "ADI 2000 CACAO INFANTIL",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
-  },
-  "ADI 2000 CACAO INFANTIL|||36": {
-    "nombre": "ADI 2000 CACAO INFANTIL",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
-  },
-  "ADI 2000 CACAO INFANTIL|||37": {
-    "nombre": "ADI 2000 CACAO INFANTIL",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
-  },
   "ADI 2000 CACAO INFANTIL|||38": {
     "nombre": "ADI 2000 CACAO INFANTIL",
     "talle": "38",
@@ -230,6 +188,30 @@
   "ADI 2000 CACAO INFANTIL|||43": {
     "nombre": "ADI 2000 CACAO INFANTIL",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
+  },
+  "ADI 2000 CACAO INFANTIL|||34": {
+    "nombre": "ADI 2000 CACAO INFANTIL",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
+  },
+  "ADI 2000 CACAO INFANTIL|||35": {
+    "nombre": "ADI 2000 CACAO INFANTIL",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
+  },
+  "ADI 2000 CACAO INFANTIL|||36": {
+    "nombre": "ADI 2000 CACAO INFANTIL",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
+  },
+  "ADI 2000 CACAO INFANTIL|||37": {
+    "nombre": "ADI 2000 CACAO INFANTIL",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-cacao-infantil/"
   },
@@ -341,6 +323,30 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
   },
+  "ADI 2000 NEGRA INFANTIL|||34": {
+    "nombre": "ADI 2000 NEGRA INFANTIL",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
+  },
+  "ADI 2000 NEGRA INFANTIL|||35": {
+    "nombre": "ADI 2000 NEGRA INFANTIL",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
+  },
+  "ADI 2000 NEGRA INFANTIL|||36": {
+    "nombre": "ADI 2000 NEGRA INFANTIL",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
+  },
+  "ADI 2000 NEGRA INFANTIL|||37": {
+    "nombre": "ADI 2000 NEGRA INFANTIL",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
+  },
   "ADI 2000 NEGRA INFANTIL|||38": {
     "nombre": "ADI 2000 NEGRA INFANTIL",
     "talle": "38",
@@ -374,30 +380,6 @@
   "ADI 2000 NEGRA INFANTIL|||43": {
     "nombre": "ADI 2000 NEGRA INFANTIL",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
-  },
-  "ADI 2000 NEGRA INFANTIL|||34": {
-    "nombre": "ADI 2000 NEGRA INFANTIL",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
-  },
-  "ADI 2000 NEGRA INFANTIL|||35": {
-    "nombre": "ADI 2000 NEGRA INFANTIL",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
-  },
-  "ADI 2000 NEGRA INFANTIL|||36": {
-    "nombre": "ADI 2000 NEGRA INFANTIL",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
-  },
-  "ADI 2000 NEGRA INFANTIL|||37": {
-    "nombre": "ADI 2000 NEGRA INFANTIL",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adi-2000-negra-infantil/"
   },
@@ -533,30 +515,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
   },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||34": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||35": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||36": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||37": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
   "ADIDAS ADI 2000 BLANCA NEGRA|||38": {
     "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
     "talle": "38",
@@ -578,6 +536,30 @@
   "ADIDAS ADI 2000 BLANCA NEGRA|||43": {
     "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||34": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||35": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||36": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||37": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
   },
@@ -1133,18 +1115,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
   },
-  "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||36": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
-  },
-  "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||37": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
-  },
   "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||38": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
     "talle": "38",
@@ -1178,6 +1148,18 @@
   "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||43": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||36": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS|||37": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 BEIGE GRIS",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-beige-gris/"
   },
@@ -1247,6 +1229,24 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
   },
+  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||35": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||36": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||37": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
+  },
   "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||38": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
     "talle": "38",
@@ -1280,24 +1280,6 @@
   "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||43": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
-  },
-  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||35": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
-  },
-  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||36": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
-  },
-  "ADIDAS ADIZERO BOSTON 12 ROSA GRIS|||37": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 ROSA GRIS",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-rosa-gris/"
   },
@@ -2567,30 +2549,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
   },
-  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||34": {
-    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
-  },
-  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||35": {
-    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
-  },
-  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||36": {
-    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
-  },
-  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||37": {
-    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
-  },
   "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||38": {
     "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
     "talle": "38",
@@ -2621,27 +2579,33 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
   },
+  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||34": {
+    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
+  },
+  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||35": {
+    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
+  },
+  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||36": {
+    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
+  },
+  "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO|||37": {
+    "nombre": "ADIDAS DURAMO SPEED 2 NEGRA GRAFITO",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-2-negra-grafito/"
+  },
   "ADIDAS DURAMO SPEED BLANCAS|||34": {
     "nombre": "ADIDAS DURAMO SPEED BLANCAS",
     "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
-  },
-  "ADIDAS DURAMO SPEED BLANCAS|||35": {
-    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
-  },
-  "ADIDAS DURAMO SPEED BLANCAS|||36": {
-    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
-  },
-  "ADIDAS DURAMO SPEED BLANCAS|||37": {
-    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
   },
@@ -2678,6 +2642,24 @@
   "ADIDAS DURAMO SPEED BLANCAS|||43": {
     "nombre": "ADIDAS DURAMO SPEED BLANCAS",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
+  },
+  "ADIDAS DURAMO SPEED BLANCAS|||35": {
+    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
+  },
+  "ADIDAS DURAMO SPEED BLANCAS|||36": {
+    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
+  },
+  "ADIDAS DURAMO SPEED BLANCAS|||37": {
+    "nombre": "ADIDAS DURAMO SPEED BLANCAS",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-blancas/"
   },
@@ -3647,6 +3629,24 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
   },
+  "ADIDAS SAMBA VAQUITA|||35": {
+    "nombre": "ADIDAS SAMBA VAQUITA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
+  },
+  "ADIDAS SAMBA VAQUITA|||36": {
+    "nombre": "ADIDAS SAMBA VAQUITA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
+  },
+  "ADIDAS SAMBA VAQUITA|||37": {
+    "nombre": "ADIDAS SAMBA VAQUITA",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
+  },
   "ADIDAS SAMBA VAQUITA|||38": {
     "nombre": "ADIDAS SAMBA VAQUITA",
     "talle": "38",
@@ -3680,24 +3680,6 @@
   "ADIDAS SAMBA VAQUITA|||43": {
     "nombre": "ADIDAS SAMBA VAQUITA",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
-  },
-  "ADIDAS SAMBA VAQUITA|||35": {
-    "nombre": "ADIDAS SAMBA VAQUITA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
-  },
-  "ADIDAS SAMBA VAQUITA|||36": {
-    "nombre": "ADIDAS SAMBA VAQUITA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
-  },
-  "ADIDAS SAMBA VAQUITA|||37": {
-    "nombre": "ADIDAS SAMBA VAQUITA",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-vaquita/"
   },
@@ -3773,30 +3755,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
   },
-  "ADIDAS SAMBA XLG BLANCA INFANTIL|||34": {
-    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
-  },
-  "ADIDAS SAMBA XLG BLANCA INFANTIL|||35": {
-    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
-  },
-  "ADIDAS SAMBA XLG BLANCA INFANTIL|||36": {
-    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
-  },
-  "ADIDAS SAMBA XLG BLANCA INFANTIL|||37": {
-    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
-  },
   "ADIDAS SAMBA XLG BLANCA INFANTIL|||38": {
     "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
     "talle": "38",
@@ -3830,6 +3788,30 @@
   "ADIDAS SAMBA XLG BLANCA INFANTIL|||43": {
     "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
+  },
+  "ADIDAS SAMBA XLG BLANCA INFANTIL|||34": {
+    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
+  },
+  "ADIDAS SAMBA XLG BLANCA INFANTIL|||35": {
+    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
+  },
+  "ADIDAS SAMBA XLG BLANCA INFANTIL|||36": {
+    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
+  },
+  "ADIDAS SAMBA XLG BLANCA INFANTIL|||37": {
+    "nombre": "ADIDAS SAMBA XLG BLANCA INFANTIL",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-xlg-blanca-infantil/"
   },
@@ -4517,30 +4499,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
   },
-  "ADIDAS SUPERNOVA BLANCA|||34": {
-    "nombre": "ADIDAS SUPERNOVA BLANCA",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
-  },
-  "ADIDAS SUPERNOVA BLANCA|||35": {
-    "nombre": "ADIDAS SUPERNOVA BLANCA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
-  },
-  "ADIDAS SUPERNOVA BLANCA|||36": {
-    "nombre": "ADIDAS SUPERNOVA BLANCA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
-  },
-  "ADIDAS SUPERNOVA BLANCA|||37": {
-    "nombre": "ADIDAS SUPERNOVA BLANCA",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
-  },
   "ADIDAS SUPERNOVA BLANCA|||38": {
     "nombre": "ADIDAS SUPERNOVA BLANCA",
     "talle": "38",
@@ -4571,9 +4529,51 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
   },
+  "ADIDAS SUPERNOVA BLANCA|||34": {
+    "nombre": "ADIDAS SUPERNOVA BLANCA",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
+  },
+  "ADIDAS SUPERNOVA BLANCA|||35": {
+    "nombre": "ADIDAS SUPERNOVA BLANCA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
+  },
+  "ADIDAS SUPERNOVA BLANCA|||36": {
+    "nombre": "ADIDAS SUPERNOVA BLANCA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
+  },
+  "ADIDAS SUPERNOVA BLANCA|||37": {
+    "nombre": "ADIDAS SUPERNOVA BLANCA",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
+  },
   "ADIDAS SUPERNOVA CHOCOLATE|||34": {
     "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
     "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
+  },
+  "ADIDAS SUPERNOVA CHOCOLATE|||35": {
+    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
+  },
+  "ADIDAS SUPERNOVA CHOCOLATE|||36": {
+    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
+  },
+  "ADIDAS SUPERNOVA CHOCOLATE|||37": {
+    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
   },
@@ -4610,24 +4610,6 @@
   "ADIDAS SUPERNOVA CHOCOLATE|||43": {
     "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
-  },
-  "ADIDAS SUPERNOVA CHOCOLATE|||35": {
-    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
-  },
-  "ADIDAS SUPERNOVA CHOCOLATE|||36": {
-    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
-  },
-  "ADIDAS SUPERNOVA CHOCOLATE|||37": {
-    "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
   },
@@ -4757,30 +4739,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
   },
-  "ADIDAS SUPERNOVA OFF ROJO|||34": {
-    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
-  },
-  "ADIDAS SUPERNOVA OFF ROJO|||35": {
-    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
-  },
-  "ADIDAS SUPERNOVA OFF ROJO|||36": {
-    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
-  },
-  "ADIDAS SUPERNOVA OFF ROJO|||37": {
-    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
-  },
   "ADIDAS SUPERNOVA OFF ROJO|||38": {
     "nombre": "ADIDAS SUPERNOVA OFF ROJO",
     "talle": "38",
@@ -4808,6 +4766,30 @@
   "ADIDAS SUPERNOVA OFF ROJO|||43": {
     "nombre": "ADIDAS SUPERNOVA OFF ROJO",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
+  },
+  "ADIDAS SUPERNOVA OFF ROJO|||34": {
+    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
+  },
+  "ADIDAS SUPERNOVA OFF ROJO|||35": {
+    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
+  },
+  "ADIDAS SUPERNOVA OFF ROJO|||36": {
+    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
+  },
+  "ADIDAS SUPERNOVA OFF ROJO|||37": {
+    "nombre": "ADIDAS SUPERNOVA OFF ROJO",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-off-rojo/"
   },
@@ -5903,30 +5885,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
   },
-  "BOTITAS NIKE JORDAN GRIS|||34": {
-    "nombre": "BOTITAS NIKE JORDAN GRIS",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
-  },
-  "BOTITAS NIKE JORDAN GRIS|||35": {
-    "nombre": "BOTITAS NIKE JORDAN GRIS",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
-  },
-  "BOTITAS NIKE JORDAN GRIS|||36": {
-    "nombre": "BOTITAS NIKE JORDAN GRIS",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
-  },
-  "BOTITAS NIKE JORDAN GRIS|||37": {
-    "nombre": "BOTITAS NIKE JORDAN GRIS",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
-  },
   "BOTITAS NIKE JORDAN GRIS|||38": {
     "nombre": "BOTITAS NIKE JORDAN GRIS",
     "talle": "38",
@@ -5948,6 +5906,30 @@
   "BOTITAS NIKE JORDAN GRIS|||43": {
     "nombre": "BOTITAS NIKE JORDAN GRIS",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
+  },
+  "BOTITAS NIKE JORDAN GRIS|||34": {
+    "nombre": "BOTITAS NIKE JORDAN GRIS",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
+  },
+  "BOTITAS NIKE JORDAN GRIS|||35": {
+    "nombre": "BOTITAS NIKE JORDAN GRIS",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
+  },
+  "BOTITAS NIKE JORDAN GRIS|||36": {
+    "nombre": "BOTITAS NIKE JORDAN GRIS",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
+  },
+  "BOTITAS NIKE JORDAN GRIS|||37": {
+    "nombre": "BOTITAS NIKE JORDAN GRIS",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/botitas-nike-jordan-gris/"
   },
@@ -7289,18 +7271,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
   },
-  "NEW BALANCE 530 SILVER BLUE|||36": {
-    "nombre": "NEW BALANCE 530 SILVER BLUE",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
-  },
-  "NEW BALANCE 530 SILVER BLUE|||37": {
-    "nombre": "NEW BALANCE 530 SILVER BLUE",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
-  },
   "NEW BALANCE 530 SILVER BLUE|||38": {
     "nombre": "NEW BALANCE 530 SILVER BLUE",
     "talle": "38",
@@ -7334,6 +7304,18 @@
   "NEW BALANCE 530 SILVER BLUE|||43": {
     "nombre": "NEW BALANCE 530 SILVER BLUE",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
+  },
+  "NEW BALANCE 530 SILVER BLUE|||36": {
+    "nombre": "NEW BALANCE 530 SILVER BLUE",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
+  },
+  "NEW BALANCE 530 SILVER BLUE|||37": {
+    "nombre": "NEW BALANCE 530 SILVER BLUE",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-silver-blue/"
   },
@@ -7883,6 +7865,30 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
   },
+  "New Balance 9060 Negras|||34": {
+    "nombre": "New Balance 9060 Negras",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
+  },
+  "New Balance 9060 Negras|||35": {
+    "nombre": "New Balance 9060 Negras",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
+  },
+  "New Balance 9060 Negras|||36": {
+    "nombre": "New Balance 9060 Negras",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
+  },
+  "New Balance 9060 Negras|||37": {
+    "nombre": "New Balance 9060 Negras",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
+  },
   "New Balance 9060 Negras|||38": {
     "nombre": "New Balance 9060 Negras",
     "talle": "38",
@@ -7910,30 +7916,6 @@
   "New Balance 9060 Negras|||42": {
     "nombre": "New Balance 9060 Negras",
     "talle": "42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
-  },
-  "New Balance 9060 Negras|||34": {
-    "nombre": "New Balance 9060 Negras",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
-  },
-  "New Balance 9060 Negras|||35": {
-    "nombre": "New Balance 9060 Negras",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
-  },
-  "New Balance 9060 Negras|||36": {
-    "nombre": "New Balance 9060 Negras",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
-  },
-  "New Balance 9060 Negras|||37": {
-    "nombre": "New Balance 9060 Negras",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-9060-negras/"
   },
@@ -8381,24 +8363,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
   },
-  "NEW BALANCE REBEL ROSA|||41": {
-    "nombre": "NEW BALANCE REBEL ROSA",
-    "talle": "41",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
-  },
-  "NEW BALANCE REBEL ROSA|||42": {
-    "nombre": "NEW BALANCE REBEL ROSA",
-    "talle": "42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
-  },
-  "NEW BALANCE REBEL ROSA|||43": {
-    "nombre": "NEW BALANCE REBEL ROSA",
-    "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
-  },
   "NEW BALANCE REBEL ROSA|||34": {
     "nombre": "NEW BALANCE REBEL ROSA",
     "talle": "34",
@@ -8417,6 +8381,24 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
   },
+  "NEW BALANCE REBEL ROSA|||41": {
+    "nombre": "NEW BALANCE REBEL ROSA",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
+  },
+  "NEW BALANCE REBEL ROSA|||42": {
+    "nombre": "NEW BALANCE REBEL ROSA",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
+  },
+  "NEW BALANCE REBEL ROSA|||43": {
+    "nombre": "NEW BALANCE REBEL ROSA",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rebel-rosa/"
+  },
   "NEW BALANCE ABZORB ROSE|||34": {
     "nombre": "NEW BALANCE ABZORB ROSE",
     "talle": "34",
@@ -8426,6 +8408,18 @@
   "NEW BALANCE ABZORB ROSE|||35": {
     "nombre": "NEW BALANCE ABZORB ROSE",
     "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
+  },
+  "NEW BALANCE ABZORB ROSE|||36": {
+    "nombre": "NEW BALANCE ABZORB ROSE",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
+  },
+  "NEW BALANCE ABZORB ROSE|||37": {
+    "nombre": "NEW BALANCE ABZORB ROSE",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
   },
@@ -8462,18 +8456,6 @@
   "NEW BALANCE ABZORB ROSE|||43": {
     "nombre": "NEW BALANCE ABZORB ROSE",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
-  },
-  "NEW BALANCE ABZORB ROSE|||36": {
-    "nombre": "NEW BALANCE ABZORB ROSE",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
-  },
-  "NEW BALANCE ABZORB ROSE|||37": {
-    "nombre": "NEW BALANCE ABZORB ROSE",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-rose/"
   },
@@ -8669,30 +8651,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
   },
-  "NIKE AIR MAX TN PLUS BARÇA|||38": {
-    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
-  },
-  "NIKE AIR MAX TN PLUS BARÇA|||41": {
-    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
-    "talle": "41",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
-  },
-  "NIKE AIR MAX TN PLUS BARÇA|||42": {
-    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
-    "talle": "42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
-  },
-  "NIKE AIR MAX TN PLUS BARÇA|||43": {
-    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
-    "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
-  },
   "NIKE AIR MAX TN PLUS BARÇA|||34": {
     "nombre": "NIKE AIR MAX TN PLUS BARÇA",
     "talle": "34",
@@ -8714,6 +8672,30 @@
   "NIKE AIR MAX TN PLUS BARÇA|||37": {
     "nombre": "NIKE AIR MAX TN PLUS BARÇA",
     "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
+  },
+  "NIKE AIR MAX TN PLUS BARÇA|||38": {
+    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
+  },
+  "NIKE AIR MAX TN PLUS BARÇA|||41": {
+    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
+  },
+  "NIKE AIR MAX TN PLUS BARÇA|||42": {
+    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
+  },
+  "NIKE AIR MAX TN PLUS BARÇA|||43": {
+    "nombre": "NIKE AIR MAX TN PLUS BARÇA",
+    "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-air-max-tn-plus-barca/"
   },
@@ -9605,30 +9587,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
   },
-  "Nike SB Dunk Low pro Panda NIÑO|||34": {
-    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
-  },
-  "Nike SB Dunk Low pro Panda NIÑO|||35": {
-    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
-  },
-  "Nike SB Dunk Low pro Panda NIÑO|||36": {
-    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
-  },
-  "Nike SB Dunk Low pro Panda NIÑO|||37": {
-    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
-  },
   "Nike SB Dunk Low pro Panda NIÑO|||38": {
     "nombre": "Nike SB Dunk Low pro Panda NIÑO",
     "talle": "38",
@@ -9662,6 +9620,30 @@
   "Nike SB Dunk Low pro Panda NIÑO|||43": {
     "nombre": "Nike SB Dunk Low pro Panda NIÑO",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
+  },
+  "Nike SB Dunk Low pro Panda NIÑO|||34": {
+    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
+  },
+  "Nike SB Dunk Low pro Panda NIÑO|||35": {
+    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
+  },
+  "Nike SB Dunk Low pro Panda NIÑO|||36": {
+    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
+  },
+  "Nike SB Dunk Low pro Panda NIÑO|||37": {
+    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/"
   },
@@ -9791,30 +9773,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
   },
-  "NIKE SB DUNK LOW PRO|||34": {
-    "nombre": "NIKE SB DUNK LOW PRO",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
-  },
-  "NIKE SB DUNK LOW PRO|||35": {
-    "nombre": "NIKE SB DUNK LOW PRO",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
-  },
-  "NIKE SB DUNK LOW PRO|||36": {
-    "nombre": "NIKE SB DUNK LOW PRO",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
-  },
-  "NIKE SB DUNK LOW PRO|||37": {
-    "nombre": "NIKE SB DUNK LOW PRO",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
-  },
   "NIKE SB DUNK LOW PRO|||38": {
     "nombre": "NIKE SB DUNK LOW PRO",
     "talle": "38",
@@ -9845,6 +9803,30 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
   },
+  "NIKE SB DUNK LOW PRO|||34": {
+    "nombre": "NIKE SB DUNK LOW PRO",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
+  },
+  "NIKE SB DUNK LOW PRO|||35": {
+    "nombre": "NIKE SB DUNK LOW PRO",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
+  },
+  "NIKE SB DUNK LOW PRO|||36": {
+    "nombre": "NIKE SB DUNK LOW PRO",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
+  },
+  "NIKE SB DUNK LOW PRO|||37": {
+    "nombre": "NIKE SB DUNK LOW PRO",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro/"
+  },
   "NIKE SB DUNK OFF ROSE|||34": {
     "nombre": "NIKE SB DUNK OFF ROSE",
     "talle": "34",
@@ -9854,24 +9836,6 @@
   "NIKE SB DUNK OFF ROSE|||39": {
     "nombre": "NIKE SB DUNK OFF ROSE",
     "talle": "39",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
-  },
-  "NIKE SB DUNK OFF ROSE|||35": {
-    "nombre": "NIKE SB DUNK OFF ROSE",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
-  },
-  "NIKE SB DUNK OFF ROSE|||36": {
-    "nombre": "NIKE SB DUNK OFF ROSE",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
-  },
-  "NIKE SB DUNK OFF ROSE|||37": {
-    "nombre": "NIKE SB DUNK OFF ROSE",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
   },
@@ -9902,6 +9866,24 @@
   "NIKE SB DUNK OFF ROSE|||43": {
     "nombre": "NIKE SB DUNK OFF ROSE",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
+  },
+  "NIKE SB DUNK OFF ROSE|||35": {
+    "nombre": "NIKE SB DUNK OFF ROSE",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
+  },
+  "NIKE SB DUNK OFF ROSE|||36": {
+    "nombre": "NIKE SB DUNK OFF ROSE",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
+  },
+  "NIKE SB DUNK OFF ROSE|||37": {
+    "nombre": "NIKE SB DUNK OFF ROSE",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-off-rose/"
   },
@@ -10571,24 +10553,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
   },
-  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||35": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||36": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||37": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
-  },
   "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||38": {
     "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
     "talle": "38",
@@ -10625,9 +10589,51 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
   },
+  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||35": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||36": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN BLANCAS|||37": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN BLANCAS",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-blancas/"
+  },
   "NIKE ZOOM X INVENCIBLE RUN ROSA|||38": {
     "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
     "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN ROSA|||34": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN ROSA|||35": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN ROSA|||36": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
+  },
+  "NIKE ZOOM X INVENCIBLE RUN ROSA|||37": {
+    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
   },
@@ -10658,30 +10664,6 @@
   "NIKE ZOOM X INVENCIBLE RUN ROSA|||43": {
     "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN ROSA|||34": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN ROSA|||35": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN ROSA|||36": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
-  },
-  "NIKE ZOOM X INVENCIBLE RUN ROSA|||37": {
-    "nombre": "NIKE ZOOM X INVENCIBLE RUN ROSA",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-invencible-run-rosa/"
   },
@@ -10751,6 +10733,24 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
   },
+  "NIKE ZOOM X ROSA LILA|||35": {
+    "nombre": "NIKE ZOOM X ROSA LILA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
+  },
+  "NIKE ZOOM X ROSA LILA|||36": {
+    "nombre": "NIKE ZOOM X ROSA LILA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
+  },
+  "NIKE ZOOM X ROSA LILA|||37": {
+    "nombre": "NIKE ZOOM X ROSA LILA",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
+  },
   "NIKE ZOOM X ROSA LILA|||38": {
     "nombre": "NIKE ZOOM X ROSA LILA",
     "talle": "38",
@@ -10784,24 +10784,6 @@
   "NIKE ZOOM X ROSA LILA|||43": {
     "nombre": "NIKE ZOOM X ROSA LILA",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
-  },
-  "NIKE ZOOM X ROSA LILA|||35": {
-    "nombre": "NIKE ZOOM X ROSA LILA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
-  },
-  "NIKE ZOOM X ROSA LILA|||36": {
-    "nombre": "NIKE ZOOM X ROSA LILA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
-  },
-  "NIKE ZOOM X ROSA LILA|||37": {
-    "nombre": "NIKE ZOOM X ROSA LILA",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-zoom-x-rosa-lila/"
   },
@@ -13037,6 +13019,30 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
   },
+  "VANS KNU INFANTIL AZUL|||34": {
+    "nombre": "VANS KNU INFANTIL AZUL",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
+  },
+  "VANS KNU INFANTIL AZUL|||35": {
+    "nombre": "VANS KNU INFANTIL AZUL",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
+  },
+  "VANS KNU INFANTIL AZUL|||36": {
+    "nombre": "VANS KNU INFANTIL AZUL",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
+  },
+  "VANS KNU INFANTIL AZUL|||37": {
+    "nombre": "VANS KNU INFANTIL AZUL",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
+  },
   "VANS KNU INFANTIL AZUL|||38": {
     "nombre": "VANS KNU INFANTIL AZUL",
     "talle": "38",
@@ -13070,30 +13076,6 @@
   "VANS KNU INFANTIL AZUL|||43": {
     "nombre": "VANS KNU INFANTIL AZUL",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
-  },
-  "VANS KNU INFANTIL AZUL|||34": {
-    "nombre": "VANS KNU INFANTIL AZUL",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
-  },
-  "VANS KNU INFANTIL AZUL|||35": {
-    "nombre": "VANS KNU INFANTIL AZUL",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
-  },
-  "VANS KNU INFANTIL AZUL|||36": {
-    "nombre": "VANS KNU INFANTIL AZUL",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
-  },
-  "VANS KNU INFANTIL AZUL|||37": {
-    "nombre": "VANS KNU INFANTIL AZUL",
-    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-knu-infantil-azul/"
   },
@@ -13223,30 +13205,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
   },
-  "VANS ULTRA VERDE|||34": {
-    "nombre": "VANS ULTRA VERDE",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
-  },
-  "VANS ULTRA VERDE|||35": {
-    "nombre": "VANS ULTRA VERDE",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
-  },
-  "VANS ULTRA VERDE|||36": {
-    "nombre": "VANS ULTRA VERDE",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
-  },
-  "VANS ULTRA VERDE|||37": {
-    "nombre": "VANS ULTRA VERDE",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
-  },
   "VANS ULTRA VERDE|||38": {
     "nombre": "VANS ULTRA VERDE",
     "talle": "38",
@@ -13274,6 +13232,30 @@
   "VANS ULTRA VERDE|||43": {
     "nombre": "VANS ULTRA VERDE",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
+  },
+  "VANS ULTRA VERDE|||34": {
+    "nombre": "VANS ULTRA VERDE",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
+  },
+  "VANS ULTRA VERDE|||35": {
+    "nombre": "VANS ULTRA VERDE",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
+  },
+  "VANS ULTRA VERDE|||36": {
+    "nombre": "VANS ULTRA VERDE",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
+  },
+  "VANS ULTRA VERDE|||37": {
+    "nombre": "VANS ULTRA VERDE",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-ultra-verde/"
   },
