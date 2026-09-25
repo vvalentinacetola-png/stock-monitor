@@ -1,22 +1,4 @@
 {
-  "Productos|||1": {
-    "nombre": "Productos",
-    "talle": "1",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||2": {
-    "nombre": "Productos",
-    "talle": "2",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||3": {
-    "nombre": "Productos",
-    "talle": "3",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
   "Productos|||S": {
     "nombre": "Productos",
     "talle": "S",
@@ -38,6 +20,24 @@
   "Productos|||XL": {
     "nombre": "Productos",
     "talle": "XL",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||1": {
+    "nombre": "Productos",
+    "talle": "1",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||2": {
+    "nombre": "Productos",
+    "talle": "2",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||3": {
+    "nombre": "Productos",
+    "talle": "3",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
