@@ -575,30 +575,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
   },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||34": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||35": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||36": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
-  "ADIDAS ADI 2000 BLANCA NEGRA|||37": {
-    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
-  },
   "ADIDAS ADI 2000 BLANCA NEGRA|||38": {
     "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
     "talle": "38",
@@ -620,6 +596,30 @@
   "ADIDAS ADI 2000 BLANCA NEGRA|||43": {
     "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||34": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||35": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||36": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
+  },
+  "ADIDAS ADI 2000 BLANCA NEGRA|||37": {
+    "nombre": "ADIDAS ADI 2000 BLANCA NEGRA",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-blanca-negra/"
   },
@@ -1355,18 +1355,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
   },
-  "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||36": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
-  },
-  "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||37": {
-    "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
-  },
   "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||38": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
     "talle": "38",
@@ -1400,6 +1388,18 @@
   "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||43": {
     "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||36": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
+  },
+  "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA|||37": {
+    "nombre": "ADIDAS ADIZERO BOSTON 12 TEXTURA BLANCA ROSA",
+    "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-boston-12-textura-blanca-rosa/"
   },
@@ -9305,6 +9305,12 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-pegasus-wave-off-white/"
   },
+  "NIKE PEGASUS WAVE OFF WHITE|||38": {
+    "nombre": "NIKE PEGASUS WAVE OFF WHITE",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-pegasus-wave-off-white/"
+  },
   "NIKE PEGASUS WAVE OFF WHITE|||34": {
     "nombre": "NIKE PEGASUS WAVE OFF WHITE",
     "talle": "34",
@@ -9326,12 +9332,6 @@
   "NIKE PEGASUS WAVE OFF WHITE|||37": {
     "nombre": "NIKE PEGASUS WAVE OFF WHITE",
     "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-pegasus-wave-off-white/"
-  },
-  "NIKE PEGASUS WAVE OFF WHITE|||38": {
-    "nombre": "NIKE PEGASUS WAVE OFF WHITE",
-    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-pegasus-wave-off-white/"
   },
