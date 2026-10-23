@@ -1,4 +1,40 @@
 {
+  "Productos|||38": {
+    "nombre": "Productos",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||39": {
+    "nombre": "Productos",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||40": {
+    "nombre": "Productos",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||41": {
+    "nombre": "Productos",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||42": {
+    "nombre": "Productos",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||43": {
+    "nombre": "Productos",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
   "Productos|||S": {
     "nombre": "Productos",
     "talle": "S",
@@ -53,18 +89,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
-  "Productos|||38": {
-    "nombre": "Productos",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||39": {
-    "nombre": "Productos",
-    "talle": "39",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
   "Productos|||1": {
     "nombre": "Productos",
     "talle": "1",
@@ -80,30 +104,6 @@
   "Productos|||3": {
     "nombre": "Productos",
     "talle": "3",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||40": {
-    "nombre": "Productos",
-    "talle": "40",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||41": {
-    "nombre": "Productos",
-    "talle": "41",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||42": {
-    "nombre": "Productos",
-    "talle": "42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||43": {
-    "nombre": "Productos",
-    "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
@@ -7563,58 +7563,118 @@
     "nombre": "New Balance 530 Tribal",
     "talle": "34",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||35": {
     "nombre": "New Balance 530 Tribal",
     "talle": "35",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||36": {
     "nombre": "New Balance 530 Tribal",
     "talle": "36",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||37": {
     "nombre": "New Balance 530 Tribal",
     "talle": "37",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||38": {
     "nombre": "New Balance 530 Tribal",
     "talle": "38",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||39": {
     "nombre": "New Balance 530 Tribal",
     "talle": "39",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||40": {
     "nombre": "New Balance 530 Tribal",
     "talle": "40",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||41": {
     "nombre": "New Balance 530 Tribal",
     "talle": "41",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||42": {
     "nombre": "New Balance 530 Tribal",
     "talle": "42",
     "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
   },
   "New Balance 530 Tribal|||43": {
     "nombre": "New Balance 530 Tribal",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1ncjk/"
+  },
+  "New Balance 530 Off Choco|||34": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||35": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||36": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||37": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||38": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||39": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||40": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||41": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||42": {
+    "nombre": "New Balance 530 Off Choco",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
+  },
+  "New Balance 530 Off Choco|||43": {
+    "nombre": "New Balance 530 Off Choco",
     "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-tribal-1r3o3/"
@@ -13066,6 +13126,66 @@
     "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-petroleo-d42hf/"
+  },
+  "Vans Hylane White & Black|||38": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||39": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||40": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||41": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||42": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||43": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||34": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||35": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||36": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
+  },
+  "Vans Hylane White & Black|||37": {
+    "nombre": "Vans Hylane White & Black",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/vans-hylane-white-black-gztqs/"
   },
   "VANS KNU BEIGE|||38": {
     "nombre": "VANS KNU BEIGE",
