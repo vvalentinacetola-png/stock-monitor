@@ -1,4 +1,76 @@
 {
+  "Productos|||36/37": {
+    "nombre": "Productos",
+    "talle": "36/37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||38/39": {
+    "nombre": "Productos",
+    "talle": "38/39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||40/41": {
+    "nombre": "Productos",
+    "talle": "40/41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||42/43": {
+    "nombre": "Productos",
+    "talle": "42/43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||37/38": {
+    "nombre": "Productos",
+    "talle": "37/38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||39/40": {
+    "nombre": "Productos",
+    "talle": "39/40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||41/42": {
+    "nombre": "Productos",
+    "talle": "41/42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||43/44": {
+    "nombre": "Productos",
+    "talle": "43/44",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||34": {
+    "nombre": "Productos",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||35": {
+    "nombre": "Productos",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||36": {
+    "nombre": "Productos",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||37": {
+    "nombre": "Productos",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
   "Productos|||38": {
     "nombre": "Productos",
     "talle": "38",
@@ -62,48 +134,6 @@
   "Productos|||XXL": {
     "nombre": "Productos",
     "talle": "XXL",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||34": {
-    "nombre": "Productos",
-    "talle": "34",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||35": {
-    "nombre": "Productos",
-    "talle": "35",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||36": {
-    "nombre": "Productos",
-    "talle": "36",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||37": {
-    "nombre": "Productos",
-    "talle": "37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||1": {
-    "nombre": "Productos",
-    "talle": "1",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||2": {
-    "nombre": "Productos",
-    "talle": "2",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||3": {
-    "nombre": "Productos",
-    "talle": "3",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
@@ -2423,6 +2453,66 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-drop-step-low-2-0-negras/"
   },
+  "Adidas Duramo Speed|||38": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||39": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||40": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||41": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||42": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||43": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||34": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||35": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||36": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
+  "Adidas Duramo Speed|||37": {
+    "nombre": "Adidas Duramo Speed",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-duramo-speed-1j3qt/"
+  },
   "ADIDAS DURAMO SPEED 2 BEIGE CHOCO|||34": {
     "nombre": "ADIDAS DURAMO SPEED 2 BEIGE CHOCO",
     "talle": "34",
@@ -4493,6 +4583,66 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-sl72-pro-black/"
   },
+  "Adidas Spezial Café|||34": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||35": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||36": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||37": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||38": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||39": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||40": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||41": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||42": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
+  "Adidas Spezial Café|||43": {
+    "nombre": "Adidas Spezial Café",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-spezial-cafe-17nfp/"
+  },
   "Adidas Spezial Chocó Rosa|||34": {
     "nombre": "Adidas Spezial Chocó Rosa",
     "talle": "34",
@@ -4733,6 +4883,126 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/"
   },
+  "Adidas Supernova Bronz|||34": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||35": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||36": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||37": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||38": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||39": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||40": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||41": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||42": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Bronz|||43": {
+    "nombre": "Adidas Supernova Bronz",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-bronz-t1qrm/"
+  },
+  "Adidas Supernova Chocolate|||34": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||35": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||36": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||37": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||38": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||39": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||40": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||41": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||42": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
+  "Adidas Supernova Chocolate|||43": {
+    "nombre": "Adidas Supernova Chocolate",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate-gfd2z/"
+  },
   "ADIDAS SUPERNOVA CHOCOLATE|||34": {
     "nombre": "ADIDAS SUPERNOVA CHOCOLATE",
     "talle": "34",
@@ -4792,6 +5062,66 @@
     "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-chocolate/"
+  },
+  "Adidas Supernova negra blanca|||34": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||35": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||36": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||37": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||38": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||39": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||40": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||41": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||42": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
+  },
+  "Adidas Supernova negra blanca|||43": {
+    "nombre": "Adidas Supernova negra blanca",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-negra-blanca-1cbqi/"
   },
   "ADIDAS SUPERNOVA NEGRA ROSA|||34": {
     "nombre": "ADIDAS SUPERNOVA NEGRA ROSA",
