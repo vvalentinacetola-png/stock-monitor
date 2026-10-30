@@ -1,52 +1,4 @@
 {
-  "Productos|||36/37": {
-    "nombre": "Productos",
-    "talle": "36/37",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||38/39": {
-    "nombre": "Productos",
-    "talle": "38/39",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||40/41": {
-    "nombre": "Productos",
-    "talle": "40/41",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||42/43": {
-    "nombre": "Productos",
-    "talle": "42/43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||37/38": {
-    "nombre": "Productos",
-    "talle": "37/38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||39/40": {
-    "nombre": "Productos",
-    "talle": "39/40",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||41/42": {
-    "nombre": "Productos",
-    "talle": "41/42",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
-  "Productos|||43/44": {
-    "nombre": "Productos",
-    "talle": "43/44",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
-  },
   "Productos|||34": {
     "nombre": "Productos",
     "talle": "34",
@@ -104,6 +56,54 @@
   "Productos|||43": {
     "nombre": "Productos",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||36/37": {
+    "nombre": "Productos",
+    "talle": "36/37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||38/39": {
+    "nombre": "Productos",
+    "talle": "38/39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||40/41": {
+    "nombre": "Productos",
+    "talle": "40/41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||42/43": {
+    "nombre": "Productos",
+    "talle": "42/43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||37/38": {
+    "nombre": "Productos",
+    "talle": "37/38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||39/40": {
+    "nombre": "Productos",
+    "talle": "39/40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||41/42": {
+    "nombre": "Productos",
+    "talle": "41/42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
+  },
+  "Productos|||43/44": {
+    "nombre": "Productos",
+    "talle": "43/44",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/"
   },
@@ -712,6 +712,66 @@
     "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi-2000-gris-negra/"
+  },
+  "Adidas Adi2000|||38": {
+    "nombre": "Adidas Adi2000",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||39": {
+    "nombre": "Adidas Adi2000",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||40": {
+    "nombre": "Adidas Adi2000",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||41": {
+    "nombre": "Adidas Adi2000",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||42": {
+    "nombre": "Adidas Adi2000",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||43": {
+    "nombre": "Adidas Adi2000",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||34": {
+    "nombre": "Adidas Adi2000",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||35": {
+    "nombre": "Adidas Adi2000",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||36": {
+    "nombre": "Adidas Adi2000",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
+  },
+  "Adidas Adi2000|||37": {
+    "nombre": "Adidas Adi2000",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adi2000-a18sh/"
   },
   "ADIDAS ADIZERO ADIÓS 8 CELESTES|||39": {
     "nombre": "ADIDAS ADIZERO ADIÓS 8 CELESTES",
@@ -2092,6 +2152,66 @@
     "talle": "37",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-adizero-evo-sl-total-black/"
+  },
+  "Adidas Boston 13 Grey|||38": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||39": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||40": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||41": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||42": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||43": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||34": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||35": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||36": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
+  },
+  "Adidas Boston 13 Grey|||37": {
+    "nombre": "Adidas Boston 13 Grey",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-boston-13-grey-14w83/"
   },
   "ADIDAS CAMPUS CAFÉ|||38": {
     "nombre": "ADIDAS CAMPUS CAFÉ",
@@ -3772,6 +3892,66 @@
     "talle": "43",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-caramel-cafe-153bd/"
+  },
+  "Adidas Samba Negras|||34": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "34",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||35": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "35",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||36": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "36",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||37": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "37",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||38": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||39": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "39",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||40": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "40",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||41": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "41",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||42": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "42",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
+  },
+  "Adidas Samba Negras|||43": {
+    "nombre": "Adidas Samba Negras",
+    "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-samba-negras-13t22/"
   },
   "ADIDAS SAMBA NUDE CROCHÉT|||34": {
     "nombre": "ADIDAS SAMBA NUDE CROCHÉT",
