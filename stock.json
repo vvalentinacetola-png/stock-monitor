@@ -4001,12 +4001,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/?entry_path=category&entry_category_id=31186476"
   },
-  "ADIDAS SUPERNOVA BLANCA|||38": {
-    "nombre": "ADIDAS SUPERNOVA BLANCA",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/?entry_path=category&entry_category_id=31186476"
-  },
   "ADIDAS SUPERNOVA BLANCA|||39": {
     "nombre": "ADIDAS SUPERNOVA BLANCA",
     "talle": "39",
@@ -4028,6 +4022,12 @@
   "ADIDAS SUPERNOVA BLANCA|||43": {
     "nombre": "ADIDAS SUPERNOVA BLANCA",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/?entry_path=category&entry_category_id=31186476"
+  },
+  "ADIDAS SUPERNOVA BLANCA|||38": {
+    "nombre": "ADIDAS SUPERNOVA BLANCA",
+    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/adidas-supernova-blanca/?entry_path=category&entry_category_id=31186476"
   },
@@ -6161,6 +6161,12 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-blancas/?entry_path=category&entry_category_id=31186476"
   },
+  "NEW BALANCE 530 BLANCAS|||38": {
+    "nombre": "NEW BALANCE 530 BLANCAS",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-blancas/?entry_path=category&entry_category_id=31186476"
+  },
   "NEW BALANCE 530 BLANCAS|||39": {
     "nombre": "NEW BALANCE 530 BLANCAS",
     "talle": "39",
@@ -6188,12 +6194,6 @@
   "NEW BALANCE 530 BLANCAS|||43": {
     "nombre": "NEW BALANCE 530 BLANCAS",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-blancas/?entry_path=category&entry_category_id=31186476"
-  },
-  "NEW BALANCE 530 BLANCAS|||38": {
-    "nombre": "NEW BALANCE 530 BLANCAS",
-    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-530-blancas/?entry_path=category&entry_category_id=31186476"
   },
@@ -6527,12 +6527,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-740-nude/?entry_path=category&entry_category_id=31186476"
   },
-  "NEW BALANCE 740 NUDE|||38": {
-    "nombre": "NEW BALANCE 740 NUDE",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-740-nude/?entry_path=category&entry_category_id=31186476"
-  },
   "NEW BALANCE 740 NUDE|||39": {
     "nombre": "NEW BALANCE 740 NUDE",
     "talle": "39",
@@ -6560,6 +6554,12 @@
   "NEW BALANCE 740 NUDE|||43": {
     "nombre": "NEW BALANCE 740 NUDE",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-740-nude/?entry_path=category&entry_category_id=31186476"
+  },
+  "NEW BALANCE 740 NUDE|||38": {
+    "nombre": "NEW BALANCE 740 NUDE",
+    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/new-balance-740-nude/?entry_path=category&entry_category_id=31186476"
   },
@@ -8357,12 +8357,6 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/?entry_path=category&entry_category_id=31186476"
   },
-  "Nike SB Dunk Low pro Panda NIÑO|||38": {
-    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
-    "talle": "38",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/?entry_path=category&entry_category_id=31186476"
-  },
   "Nike SB Dunk Low pro Panda NIÑO|||39": {
     "nombre": "Nike SB Dunk Low pro Panda NIÑO",
     "talle": "39",
@@ -8390,6 +8384,12 @@
   "Nike SB Dunk Low pro Panda NIÑO|||43": {
     "nombre": "Nike SB Dunk Low pro Panda NIÑO",
     "talle": "43",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/?entry_path=category&entry_category_id=31186476"
+  },
+  "Nike SB Dunk Low pro Panda NIÑO|||38": {
+    "nombre": "Nike SB Dunk Low pro Panda NIÑO",
+    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/nike-sb-dunk-low-pro-panda-nino/?entry_path=category&entry_category_id=31186476"
   },
@@ -10277,6 +10277,12 @@
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/samba-vegan-negra/?entry_path=category&entry_category_id=31186476"
   },
+  "SAMBA VEGAN NEGRA|||38": {
+    "nombre": "SAMBA VEGAN NEGRA",
+    "talle": "38",
+    "disponible": true,
+    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/samba-vegan-negra/?entry_path=category&entry_category_id=31186476"
+  },
   "SAMBA VEGAN NEGRA|||39": {
     "nombre": "SAMBA VEGAN NEGRA",
     "talle": "39",
@@ -10304,12 +10310,6 @@
   "SAMBA VEGAN NEGRA|||43": {
     "nombre": "SAMBA VEGAN NEGRA",
     "talle": "43",
-    "disponible": true,
-    "url": "https://mayoristathenewclassic.mitiendanube.com/productos/samba-vegan-negra/?entry_path=category&entry_category_id=31186476"
-  },
-  "SAMBA VEGAN NEGRA|||38": {
-    "nombre": "SAMBA VEGAN NEGRA",
-    "talle": "38",
     "disponible": true,
     "url": "https://mayoristathenewclassic.mitiendanube.com/productos/samba-vegan-negra/?entry_path=category&entry_category_id=31186476"
   },
